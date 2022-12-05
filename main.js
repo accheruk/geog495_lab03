@@ -1,4 +1,4 @@
-mapboxgl.accessToken = 'pk.eyJ1IjoiYWNjaGVydWsiLCJhIjoiY2xiYWUxMzYxMG1jajNwbGRzMGd5d2d0OSJ9.Wydx0NNVyC8SzSni_SZfIg';
+mapboxgl.accessToken = 'pk.eyJ1IjoiamFrb2J6aGFvIiwiYSI6ImNpcms2YWsyMzAwMmtmbG5icTFxZ3ZkdncifQ.P9MBej1xacybKcDN_jehvw';
 
 let map = new mapboxgl.Map({
     container: 'map', // container ID
@@ -63,11 +63,10 @@ map.on('load', function loadingData() {
     });
 
 });
+
 let btn = document.getElementsByTagName("button")[0];
 
 btn.addEventListener('click', sortTable);
-
-// define the function to sort table
 // define the function to sort table
 function sortTable(e) {
     let table, rows, switching, i, x, y, shouldSwitch;
